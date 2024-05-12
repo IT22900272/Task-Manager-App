@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">TaskManagerApp</string>
+    <string name="app_name">Task Manager</string>
+    <string name="memolist">memolist</string>
+    <string name="enter">Enter Your Task</string>
+    <string name="Tasks">Tasks</string>
+    <string name="AddTasks">Add Tasks</string>
 </resources>
