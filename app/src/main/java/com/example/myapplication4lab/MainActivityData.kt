@@ -1,9 +1,9 @@
-package com.example.taskmanagerapp
+package com.example.myapplication4lab
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.example.taskmanagerapp.database.Todo
+import com.example.myapplication4lab.database.Todo
 
 class MainActivityData: ViewModel() {
     private val _data = MutableLiveData<List<Todo>>()

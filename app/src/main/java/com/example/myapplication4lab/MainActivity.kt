@@ -1,4 +1,4 @@
-package com.example.taskmanagerapp
+package com.example.myapplication4lab
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -9,10 +9,9 @@ import androidx.appcompat.app.AlertDialog
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.myapplication4lab.R
-import com.example.taskmanagerapp.database.TodoRepository
-import com.example.taskmanagerapp.database.Todo
-import com.example.taskmanagerapp.database.TodoDatabase
+import com.example.myapplication4lab.database.TodoRepository
+import com.example.myapplication4lab.database.Todo
+import com.example.myapplication4lab.database.TodoDatabase
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch

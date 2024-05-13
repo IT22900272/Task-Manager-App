@@ -1,4 +1,4 @@
-package com.example.taskmanagerapp.database
+package com.example.myapplication4lab.database
 
 class TodoRepository(private val db:TodoDatabase) {
     suspend fun insert(todo: Todo) = db.getTodoDao().insert(todo)

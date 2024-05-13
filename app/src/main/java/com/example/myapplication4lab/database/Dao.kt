@@ -1,4 +1,4 @@
-package com.example.taskmanagerapp.database
+package com.example.myapplication4lab.database
 
 import androidx.room.Dao
 import androidx.room.Delete
